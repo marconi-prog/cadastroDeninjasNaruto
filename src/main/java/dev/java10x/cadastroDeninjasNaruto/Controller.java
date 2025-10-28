@@ -12,9 +12,4 @@ public class Controller {
     public String boasvindas(){
        return "essa e minha primeira rota";
     }
-    @GetMapping("/ola")
-    public String ola(){
-        return "ola";
-    }
-
 }
