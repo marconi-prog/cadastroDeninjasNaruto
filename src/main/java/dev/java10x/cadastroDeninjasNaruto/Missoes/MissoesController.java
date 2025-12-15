@@ -1,37 +1,36 @@
 package dev.java10x.cadastroDeninjasNaruto.Missoes;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping
 public class MissoesController {
 
-    @GetMapping("/missoes")
-    public String missoes(){
-        return "kk";
-    }
-
     // Adicionar ninja (Create)
     @PostMapping("/criar")
-    public String criar(){
-        return "Ninja";
-    }
-    // Procurar ninja por id (Create)
-    @GetMapping("/mostrarid")
-    public String ninjaid(){
-        return "Ninja";
+    public String criarNinja(){
+        return "Ninja criado";
     }
 
     // Mostrar ninjas (Read)
-    @GetMapping("/mostrarninjas")
-    public String listarninja(){
-        return "ninja";
+    @GetMapping("/todos")
+    public String mostrarTodosOsNinjas(){
+        return "ninja criado";
+    }
+    // Mostrar ninjas por id (Read)
+    @GetMapping("/todosID")
+    public String mostrarTodosOsNinjasPorId(){
+        return "mostar ninja por id";
     }
 
     // Alterar dados dos ninjas (Update)
-
+    @PutMapping("/alterarID")
+    public String alterarNinjasPorId(){
+        return "alterar ninja por id";
+    }
     // Deletar ninja (Delete)
+    @DeleteMapping("/deletarID")
+    public String deletarNinjaporId(){
+        return "deletar ninjas por id";
+    }
 }
