@@ -1,4 +1,6 @@
-# Awesome Ninja API 
+# Awesome Ninja API [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+![logo](logo-ninja.jpg)
 
 > Uma lista organizada e prática de exemplos e recursos do projeto **Ninja API**, uma aplicação backend desenvolvida em **Spring Boot**, focada em cadastro e gerenciamento de ninjas.
 
