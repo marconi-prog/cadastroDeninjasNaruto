@@ -1,7 +1,5 @@
 # Awesome Ninja API 
 
-<img src="imagens/mascote.png" align="right" width="220">
-
 
 > Uma lista organizada e prática de exemplos e recursos do projeto **Ninja API**, uma aplicação backend desenvolvida em **Spring Boot**, focada em cadastro e gerenciamento de ninjas.
 
@@ -11,6 +9,8 @@ Este projeto está **finalizado** e demonstra boas práticas de arquitetura back
 > Este projeto é voltado para fins educacionais, aprendizado e portfólio. Não é recomendado para uso direto em produção sem adaptações de segurança e escalabilidade.
 
 <!--lint disable awesome-toc-->
+
+<img src="mascote.png" align="right" width="200">
 
 ## Conteúdo
 
