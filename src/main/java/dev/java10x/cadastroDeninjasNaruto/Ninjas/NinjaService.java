@@ -19,7 +19,8 @@ public class NinjaService {
         return ninjaRepository.findAll();
     }
     //Listar todos os ninjas por ID
-    public Optional<NinjaModel> todosID(Long id){
-        return ninjaRepository.findById(id);
+    public NinjaModel buscarPorId(Long id) {
+        return ninjaRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Ninja não encontrado com ID: " + id));
     }
 }
